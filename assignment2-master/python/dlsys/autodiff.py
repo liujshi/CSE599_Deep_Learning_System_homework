@@ -153,7 +153,7 @@ class AddOp(Op):
     def infer_shape(self, node, input_shapes):
         """Need to handle input_vals[0].shape != input_vals[1].shape"""
         """TODO: Your code here"""
-        
+
 
 class AddByConstOp(Op):
     def __call__(self, node_A, const_val):
